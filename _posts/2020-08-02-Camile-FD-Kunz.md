@@ -1,0 +1,11 @@
+---
+layout: single-poster
+author: esmb
+day: "All"
+group: "poster"
+title: "Chemotaxis impact on pattern formation"
+subgroup: "CDEV"
+presenter: "Camile FD  Kunz"
+institution: "Goethe University - FIAS"
+abstract: "During embryo development there is a rapid growth in cell numbers that forms complex structures. Skin pattern formation is an early process during the embryogenesis and happens before the cells fully differentiate. In the present project we consider skin patterning in mouse embryos, where cell aggregates form based on a hierarchical process, involving interactions between the epidermal cell populations. The reaction-diffusion pre-pattern is driven by fibroblast growth factor (FGF20), bone morphogenic protein (BMP) and WNT. Considering mathematical models, there are two main processes involved in the pattern formation: Turing reaction-diffusion systems and chemotaxis. The Turing system models the concentration of two interacting chemicals, and the patterns arises from an instability driven by a difference between their diffusion coefficients. Some previous studies show that this behavior is essential for self-organization in the mouse hair follicle and chicken feather pre-pattern formation. Another key mechanism is chemotaxis, where the cells move in the direction of a chemical attractant, where patterns can also be observed. Experimental data indicates a hierarchical system, where cell chemotaxis is guided by a Turing system. We aim at developing mathematical models to describe the underlying biological processes leading to skin patterning, especially the interaction of chemotaxis with reaction-diffusion (Turing) systems. A mathematical model using partial differential equations is solved numerically, and some results are presented and compared to the experimental data. We study the parameter-dependence of the model and different model structures, and their impact on the pattern forming process. According to the experimental data the Turing system and the chemotaxis seems to be intrinsically related on the mouse skin patterning. Using a numerical approach for the PDE system, we develop a framework to study quantitatively how chemotaxis and Turing systems are related and their impact on the patterning process."
+---

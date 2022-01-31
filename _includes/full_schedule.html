@@ -1,0 +1,262 @@
+
+
+<div class="col-md-12 text-center rightborder pl-0">
+     
+     <strong>
+     	Click to filter by subgroup: </br>
+	     <span class="click-legend" onclick="myFunction('all')">All</span>
+	     <span class="click-legend uMEPI" onclick="myFunction('text-MEPI')">MEPI</span> 
+	     <span class="click-legend uCDEV" onclick="myFunction('text-CDEV')">CDEV</span>
+	     <span class="click-legend uEDUC" onclick="myFunction('text-EDUC')">EDUC</span>
+	     <span class="click-legend uIMMU" onclick="myFunction('text-IMMU')">IMMU</span>
+	     <span class="click-legend uNEUR" onclick="myFunction('text-NEUR')">NEUR</span>
+	     <span class="click-legend uMFBM" onclick="myFunction('text-MFBM')">MFBM</span>
+	     <span class="click-legend uPOPD" onclick="myFunction('text-POPD')">POPD</span>                 
+	     <span class="click-legend uONCO" onclick="myFunction('text-ONCO')">ONCO</span> 
+	     <span class="click-legend uOTHE" onclick="myFunction('text-OTHE')">OTHE</span>   
+     </strong>               
+</div>
+</br>
+</br>
+
+<div class="table-responsive text-left" id="full-table">
+  <table class="table table-sm table-bordered table-hover text-left">
+  <thead>
+    <tr>
+      <th scope="col">Time (EDT)</th>
+      <th scope="col"><a href="{{site.baseurl}}/monday">Monday</a></th>
+      <th scope="col"><a href="{{site.baseurl}}/tuesday">Tuesday</a></th>
+      <th scope="col"><a href="{{site.baseurl}}/wednesday">Wednesday</a></th>
+      <th scope="col"><a href="{{site.baseurl}}/thursday">Thursday</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">8:00am</th>
+      <td><a href="{{site.baseurl}}/monday#welcome">Opening & Welcome</a></td>
+      <td colspan="3">Coffee with friends and colleagues</td>
+    </tr>
+    <tr>
+      <th scope="row">8:30am</th>
+      <td class="concurrent"><a href="{{site.baseurl}}/monday#opening"><strong>Opening Plenary</strong></br>Shayn Peirce-Cottler</a></td>
+      <td class="MEPI"><a href="{{site.baseurl}}/tuesday#opening"><strong>Epidemiology Keynote</strong></br>Deirdre Hollingsworth</td>
+      <td class="EDUC"><a href="{{site.baseurl}}/wednesday#opening"><strong>Education Keynote</strong></br>Alicia Prieto Langrica</td>
+      <td class="NEUR"><a href="{{site.baseurl}}/thursday#opening"><strong>Neuroscience Keynote</strong></br>Sue Ann Campbell</td>
+    </tr>
+    <tr>
+      <th scope="row">9:30am</th>
+      
+      <td>
+	      <a href="{{site.baseurl}}/monday#MS1">
+		      <strong>Minisymposium, </br> Contributed Session</br>
+		      <span class="text-ONCO">ONCO</span>
+		      <span class="text-MEPI">MEPI</span>
+		      <span class="text-POPD">POPD</span>
+		      <span class="text-CDEV">CDEV</span>
+		      <span class="text-MFBM">MFBM</span>
+		      </strong>
+	      </a>
+	    </td>
+	    
+	    <td>
+		    <a href="{{site.baseurl}}/tuesday#MS1">
+			    <strong>Minisymposium, </br> Contributed Session</br>
+		      <span class="text-ONCO">ONCO</span>
+		      <span class="text-MEPI">MEPI</span>
+		      <span class="text-POPD">POPD</span>
+		      <span class="text-CDEV">CDEV</span>
+		      <span class="text-MFBM">MFBM</span>
+		      <span class="text-OTHE">OTHE</span>
+		      <span class="text-IMMU">IMMU</span>
+		      </strong>
+	      </a>
+	    </td>
+	    
+	    <td>
+		    <a href="{{site.baseurl}}/wednesday#MS1">
+			    <strong>Minisymposium, </br> Contributed Session</br>
+		      <span class="text-ONCO">ONCO</span>
+		      <span class="text-MEPI">MEPI</span>
+		      <span class="text-POPD">POPD</span>
+		      <span class="text-EDUC">EDUC</span>
+		      <span class="text-NEUR">NEUR</span>
+		      <span class="text-CDEV">CDEV</span>
+		      <span class="text-MFBM">MFBM</span>
+		      <span class="text-OTHE">OTHE</span>
+		      <span class="text-IMMU">IMMU</span>
+		      </strong>
+	      </a>
+	    </td>
+	    
+	    <td>
+		    <a href="{{site.baseurl}}/thursday#MS1">
+			    <strong>Minisymposium, </br> Contributed Session</br>
+		      <span class="text-ONCO">ONCO</span>
+		      <span class="text-MEPI">MEPI</span>
+		      <span class="text-POPD">POPD</span>
+		      <span class="text-NEUR">NEUR</span>
+		      <span class="text-CDEV">CDEV</span>
+		      <span class="text-MFBM">MFBM</span>
+		      <span class="text-OTHE">OTHE</span>
+		      <span class="text-IMMU">IMMU</span>
+		      </strong>
+	      </a>
+	    </td>
+	    
+	    
+    </tr>
+    <tr>
+      <th scope="row">11:00am</th>
+      <td colspan="4"><strong>15 minute break</strong></td>
+    </tr>
+    <tr>
+      <th scope="row" rowspan="2">11:15am</th>
+      <td rowspan="2">
+	      <a href="{{site.baseurl}}/monday#MS2">
+	      <strong>Minisymposium, </br> Contributed Session</br>
+	      <span class="text-ONCO">ONCO</span>
+	      <span class="text-MEPI">MEPI</span>
+	      <span class="text-POPD">POPD</span>
+	      <span class="text-CDEV">CDEV</span>
+	      <span class="text-MFBM">MFBM</span>
+	      </strong>
+	      </a>
+	    </td>
+	    
+	    <td rowspan="2">
+		    <a href="{{site.baseurl}}/tuesday#MS2">
+		    <strong>Minisymposium, </br> Contributed Session</br>
+	      <span class="text-ONCO">ONCO</span>
+	      <span class="text-MEPI">MEPI</span>
+	      <span class="text-POPD">POPD</span>
+	      <span class="text-CDEV">CDEV</span>
+	      <span class="text-MFBM">MFBM</span>
+	      <span class="text-IMMU">IMMU</span>
+	      </strong>
+	      </a>
+	    </td>
+	    
+	    <td rowspan="2">
+		    <a href="{{site.baseurl}}/wednesday#MS2">
+		    <strong>Minisymposium, </br> Contributed Session</br>
+	      <span class="text-ONCO">ONCO</span>
+	      <span class="text-MEPI">MEPI</span>
+	      <span class="text-POPD">POPD</span>
+	      <span class="text-EDUC">EDUC</span>
+	      <span class="text-NEUR">NEUR</span>
+	      <span class="text-CDEV">CDEV</span>
+	      <span class="text-MFBM">MFBM</span>
+	      <span class="text-OTHE">OTHE</span>
+	      <span class="text-IMMU">IMMU</span>
+	      </strong>
+	      </a>
+	    </td>
+	    
+	    <td class="IMMU">
+		    <a href="{{site.baseurl}}/thursday#keynote1">
+			  	<strong>Immunobiology Keynote</strong></br>David Ho
+			  </a>
+		  </td>      
+    </tr>
+    
+    <tr>
+      	<td class="CDEV"><a href="{{site.baseurl}}/thursday#keynote2"><strong>Cell dev. biology Keynote</strong></br>Adam Martin</a></td>      
+    </tr>
+    
+    <tr>
+      <th scope="row">12:45pm</th>
+      <td><a href="{{site.baseurl}}/monday#lunch"><strong>Mentoring luncheon</strong></a></td>
+      <td><a href="{{site.baseurl}}/tuesday#lunch"><strong>Subgroup business meeting</strong></a></td>
+      <td><a href="{{site.baseurl}}/wednesday#lunch"><strong>SMB business meeting</strong></a></td>
+      <td><a href="{{site.baseurl}}/thursday#lunch"><strong>Career fair</strong></a></td>
+    </tr>
+    <tr>
+      <th scope="row">1:30pm</th>
+			
+			<!--  Monday CT1 -->
+      <td>
+	      <a href="{{site.baseurl}}/monday#CT1">
+	      <strong>Contributed Session</br>
+	      <span class="text-ONCO">ONCO</span>
+	      <span class="text-MEPI">MEPI</span>
+	      <span class="text-POPD">POPD</span>
+	      <span class="text-CDEV">CDEV</span>
+	      <span class="text-MFBM">MFBM</span>
+	      <span class="text-OTHE">OTHE</span>
+	      </strong>
+	      </a>
+	    </td>
+	    
+	    <!--  Tuesday CT1 -->
+	    <td>
+		    <a href="{{site.baseurl}}/tuesday#CT1">
+		    <strong>Contributed Session</br>
+	      <span class="text-ONCO">ONCO</span>
+	      <span class="text-MEPI">MEPI</span>
+	      <span class="text-POPD">POPD</span>
+	      <span class="text-CDEV">CDEV</span>
+	      <span class="text-MFBM">MFBM</span>
+	      <span class="text-IMMU">IMMU</span>
+	      <span class="text-OTHE">OTHE</span>
+	      </strong>
+	      </a>
+	    </td>
+	    
+	    <!--  Wednesday CT1 -->
+	    <td>
+		    <a href="{{site.baseurl}}/wednesday#CT1">
+		    <strong>Contributed Session</br>
+	      <span class="text-ONCO">ONCO</span>
+	      <span class="text-MEPI">MEPI</span>
+	      <span class="text-POPD">POPD</span>
+	      <span class="text-NEUR">NEUR</span>
+	      <span class="text-CDEV">CDEV</span>
+	      <span class="text-MFBM">MFBM</span>
+	      <span class="text-OTHE">OTHE</span>
+	      </strong>
+	      </a>
+	    </td>
+	    
+	    <!--  Thursday CT1 -->
+	    <td rowspan="2">
+		    <a href="{{site.baseurl}}/thursday#CT1">
+		    <strong>Contributed Session</br>
+	      <span class="text-ONCO">ONCO</span>
+	      <span class="text-MEPI">MEPI</span>
+	      <span class="text-POPD">POPD</span>
+	      <span class="text-CDEV">CDEV</span>
+	      <span class="text-MFBM">MFBM</span>
+	      <span class="text-OTHE">OTHE</span>
+	      <span class="text-IMMU">IMMU</span>
+	      </strong>
+	      </a>
+	    </td>    
+    </tr>
+    
+    <tr>
+      <th scope="row">2:30pm</th>
+      <td><a href="{{site.baseurl}}/monday#poster"><strong>Poster session</strong></a></td>
+      <td><a href="{{site.baseurl}}/monday#poster"><strong>Poster session</strong></a></td>
+      <td><a href="{{site.baseurl}}/monday#poster"><strong>Poster session</strong></a></td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th scope="row">3:30pm</th>
+      <td class="POPD"><a href="{{site.baseurl}}/monday#keynote"><strong>Population Dyn. Keynote</strong></br>Priyanga Amarasekare</a></td>
+      <td class="ONCO"><a href="{{site.baseurl}}/tuesday#keynote"><strong>Oncology Keynote</strong></br>Andrea Bild</a></td>
+      <td class="MFBM"><a href="{{site.baseurl}}/wednesday#keynote"><strong>Methods Keynote</strong></br>Robert Insall</a></td>
+      <td class="concurrent"><a href="{{site.baseurl}}/thursday#closing"><strong>Closing Plenary</strong></br>Carl Bergstrom</a></td>
+    </tr>
+    <tr>
+      <th scope="row">4:30pm</th>
+      <td colspan="3"><strong>Happy hour with friends & colleagues</strong></td>
+      <td colspan="3"><strong>Poster, Talk and Twitter awards will be announced.</strong></td>
+    </tr>
+        
+  </tbody>
+</table>
+</div>
+
+

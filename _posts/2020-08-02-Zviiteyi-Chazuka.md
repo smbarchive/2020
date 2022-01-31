@@ -1,0 +1,11 @@
+---
+layout: single-poster
+author: esmb
+day: "All"
+group: "poster"
+title: "A mathematical model for in host dynamics of an immune evading virus"
+subgroup: "ONCO"
+presenter: "Zviiteyi Chazuka"
+institution: "University of South Africa"
+abstract: "High risk human papillomaviruses HPV types 16,18,31,45 are one of the major causative agents of cervical cancer in women globally and it is estimated that about 80% of women are infected by HPV mainly due to sexual activities within their life time. Out of these infections and re-infections some develop into persistent infections that lead to cancer lesions while some can be cleared provided they are detected by the immune system. Immune response within the body plays a pivotal role in clearing most infections that constantly affect us. Interestingly viruses such as HPV are seemingly very 'clever' in concealing their presence within cells as they devise many ways of avoiding detection by the immune system and therefore manage to create an anti-inflammatory micro environment. This leads us to interesting mathematical modelling research of a little 'clever immune evading virus'. We create a mathematical model for the dynamics of HPV in the presence of immune response and rigorous mathematical calculations show that there exist three equilibrium points whose stability both local and global is shown. An investigation into the probable possibility of a bifurcation is done using the centre manifold theory. Results show that a forward bifurcation exists and hence the endemic equilibrium is locally asymptotically stable provided that the reproduction number (R0) is less than unity and unstable otherwise. Numerical simulations prove and support the theoretical work presented. We also establish that HPV can be eliminated from the body when R0<1 and persistence occurs either when there is immune response evasion R0>1, Rk<1 where (Rk) is the immune response reproduction number or when there is immune response R0 >1, Rk>1.  It is envisaged that the results of the study will be used further on to analyse the epidemiological link within the complex dynamics of HIV/HPV in the presence of stochastic perturbations, which is the core of the PhD work."
+---

@@ -1,0 +1,11 @@
+---
+layout: single-poster
+author: esmb
+day: "Unconfirmed"
+group: "poster"
+title: "Determination of the critical adhesion parameter for the sorting behavior of a cell system with several cell types using statistical learning methods"
+subgroup: "MFBM"
+presenter: "Phillip Rossbach"
+institution: "Unknown"
+abstract: "The process of cell sorting plays an essential role in development and maintenance of tissues. To understand the basic mechanisms of this process, mathematical modeling can assist cell biological research by providing means to analyze the consequences of different hypotheses on the underlying mechanisms. Three basic theoretical descriptions of cell segregation already exist: the Differential Surface Contraction Hypothesis of Harris (1976), the Differential Interface Tension Hypothesis of Brodland and Chen (2000) and the Differential Adhesion Hypothesis (DAH) of Steinberg. In DAH it is assumed that cell sorting is determined by quantitative differences in cell type speciffc intercellular adhesion strengths. An implementation of the DAH is the cell based Differential Migration Model (DMM) by Voss-Bohme and Deutsch. This DMM is based on modulated migration properties of cells with respect to their intercellular adhesion strengths and allows to study analytically the factors that determine pattern formation during cell sorting. In particular, a critical adhesion parameter for systems with two cell types can be derived analytically which predicts the sorting pattern of the two cell types as a function of the intercellular adhesion strengths. Here, we investigate numerically the existence of a critical parameter which determines the sorting behavior for more complex systems with more than two cell types. We rely on in-silico time-series data that is produced by a probabilistic cellular automaton which emulates the DMM and classify the segregation behavior using statistical learning methods such as Support Vector Machines and Logistic Regression Models. The well-understood case of two cell-types is used as benchmark-problem to evaluate our tools. The order parameter and statistical learning tools developed in this context provide a methodic approach applicable to the analysis of spatio-temporal in-vitro data, as well."
+---

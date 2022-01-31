@@ -1,0 +1,51 @@
+<!-- This goes before </head> closing tag, Google Analytics can be placed here --> 
+
+
+
+
+{% if page.title %}
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="smb2020.org">
+		<meta name="twitter:creator" content="@ESmb2020">
+		<meta name="twitter:title" content="{{page.title}}">
+		<meta name="twitter:description" content="{{page.title}}">
+		<meta name="twitter:image" content="https://raw.githubusercontent.com/JeffreyWest/esmb/master/assets/images/preview.png">
+
+		<meta name="title" content="{{page.title}}" />
+		
+		<meta property="og:title" content="{{page.title}}" />
+		
+		{% if page.description %}
+			<meta name="description" content="{{page.description}}" />
+			<meta property="og:description" content="{{page.description}}" />
+		{% else %}
+			<meta name="description" content="{{page.url}}" />
+			<meta property="og:description" content="{{page.url}}" />
+		{% endif %}
+		
+		
+		<meta property="og:image" content="https://raw.githubusercontent.com/JeffreyWest/esmb/master/assets/images/preview.png"/>
+
+		
+	{% else %}
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="smb2020.org">
+		<meta name="twitter:creator" content="@ESmb2020">
+		<meta name="twitter:title" content="e-SMB2020">
+		<meta name="twitter:description" content="Society for Mathematical Biology Annual Meeting">
+		<meta name="twitter:image" content="https://raw.githubusercontent.com/JeffreyWest/esmb/master/assets/images/preview.png">
+
+		<meta name="title" content="Society for Mathematical Biology" />
+		<meta property="og:title" content="smb2020.org" />
+		
+		{% if page.description %}
+			<meta name="description" content="{{page.description}}" />
+			<meta property="og:description" content="{{page.description}}" />
+		{% else %}
+			<meta name="description" content="{{page.url}}" />
+			<meta property="og:description" content="{{page.url}}" />
+		{% endif %}
+		
+		<meta property="og:image" content="https://raw.githubusercontent.com/JeffreyWest/esmb/master/assets/images/preview.png"/>
+	{% endif %}

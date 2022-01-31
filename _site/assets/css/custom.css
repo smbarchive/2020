@@ -1,0 +1,390 @@
+/*
+table.table tbody tr td,
+table.table thead tr th,
+table.table thead {
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+}
+*/
+
+
+
+.hide-abstracts {
+	 position: absolute !important;
+   top: -99999px !important;
+   left: -99999px !important;
+}
+
+
+
+.click-legend{
+	cursor: pointer;
+}
+
+
+
+
+.subgroup-name {
+	margin-bottom: 10px;
+}
+
+.row-group {
+	  margin-bottom: -25px;
+}
+
+.card-header-subgroup {
+	font-family: Georgia,Times,"Times New Roman",serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+
+a {
+	color: #000000;
+}
+
+a:hover {
+	color: #31a7f0;
+}
+
+
+a .text-justify {
+	color: #000000 !important;
+}
+
+a .text-justify:hover {
+	color: #3488bc !important;
+}
+
+a .card-body-subgroup {
+	color: #000000 !important;
+}
+
+a .card-body-subgroup:hover {
+	color: #3488bc !important;
+}
+
+a .card-header-subgroup {
+	color: #000000;
+}
+
+a .card-header-subgroup:hover {
+	color: #3488bc;
+}
+
+.subgroup-name h6 {
+	font-family: Georgia,Times,"Times New Roman",serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: -30px;
+}
+
+.parallel {
+  background-color: #dae5f5 !important;
+}
+
+.concurrent {
+  background-color: #3488bc !important;
+}
+
+/* aabdcc */
+.uCDEV {
+  color: #a6c7ea !important;
+  text-decoration: underline;
+  text-decoration-color: #a6c7ea;
+}
+
+.uEDUC {
+  color: #6899ad !important; 
+  text-decoration: underline;
+  text-decoration-color: #6899ad;
+}
+
+.uIMMU {
+  color: #91cfb6 !important; 
+  text-decoration: underline;
+  text-decoration-color: #91cfb6;
+}
+
+.uMEPI {
+  color: #b9cab0 !important;
+  text-decoration: underline;
+  text-decoration-color: #b9cab0; 
+}
+
+.uNEUR {
+  color: #f59598 !important; 
+  text-decoration: underline;
+  text-decoration-color: #f59598;
+}
+
+.uONCO {
+  color: #ceb3d3 !important; 
+  text-decoration: underline;
+  text-decoration-color: #ceb3d3;
+}
+
+.uMFBM {
+  color: #fdbe7d !important; 
+  text-decoration: underline;
+  text-decoration-color: #fdbe7d;
+}
+
+.uPOPD {
+  color: #cdab90 !important; 
+  text-decoration: underline;
+  text-decoration-color: #cdab90;
+}
+
+.uOTHE {
+  color: #c1c1c1 !important; 
+  text-decoration: underline;
+  text-decoration-color: #c1c1c1;
+}
+
+
+
+/* text-colors */
+
+.text-OTHE {
+  color: #c1c1c1 !important;
+}
+
+.text-CDEV {
+  color: #a6c7ea !important;
+}
+
+.text-EDUC {
+  color: #6899ad !important; 
+}
+
+.text-IMMU {
+  color: #91cfb6 !important; 
+}
+
+.text-MEPI {
+  color: #b9cab0 !important; 
+}
+
+.text-NEUR {
+  color: #f59598 !important; 
+}
+
+.text-ONCO {
+  color: #ceb3d3 !important; 
+}
+
+.text-MFBM {
+  color: #fdbe7d !important; 
+}
+
+.text-POPD {
+  color: #cdab90 !important; 
+}
+
+/* BKGD-colors */
+
+.OTHE {
+  background-color: #c1c1c1 !important;
+  margin-bottom: 10px;  
+}
+
+.CDEV {
+  background-color: #a6c7ea !important;
+  margin-bottom: 10px;  
+}
+
+.EDUC {
+  background-color: #6899ad !important; 
+  margin-bottom: 10px;
+}
+
+.IMMU {
+  background-color: #91cfb6 !important; 
+  margin-bottom: 10px;
+}
+
+.MEPI {
+  background-color: #b9cab0 !important; 
+  margin-bottom: 10px;
+}
+
+.NEUR {
+  background-color: #f59598 !important; 
+  margin-bottom: 10px;
+}
+
+.ONCO {
+  background-color: #ceb3d3 !important; 
+  margin-bottom: 10px;
+}
+
+.MFBM {
+  background-color: #fdbe7d !important; 
+  margin-bottom: 10px;
+}
+
+.POPD {
+  background-color: #cdab90 !important; 
+  margin-bottom: 10px;
+}
+
+.plenary {
+  background-color: #e8f3ec !important; 
+}
+
+.keynote {
+  background-color: #e8f3ec !important; 
+}
+
+
+
+
+
+
+ol.list-posters {
+	counter-reset:my-awesome-counter-OTHE my-awesome-counter-CDEV my-awesome-counter-IMMU my-awesome-counter-MEPI my-awesome-counter-ONCO my-awesome-counter-MFBM my-awesome-counter-NEUR my-awesome-counter-EDUC my-awesome-counter-POPD;
+	list-style:none;
+	padding-left:0;
+}
+
+
+/* COUNTERS */
+
+ol.list-posters li.subgroup-counter-OTHE {
+	counter-increment:my-awesome-counter-OTHE; 
+	display:flex; 
+	font-size:0.8rem;
+}
+ol.list-posters li.subgroup-counter-CDEV {
+	counter-increment:my-awesome-counter-CDEV; 
+	display:flex; 
+	font-size:0.8rem;
+}
+ol.list-posters li.subgroup-counter-IMMU {
+	counter-increment:my-awesome-counter-IMMU; 
+	display:flex; 
+	font-size:0.8rem;
+}
+ol.list-posters li.subgroup-counter-MEPI {
+	counter-increment:my-awesome-counter-MEPI; 
+	display:flex; 
+	font-size:0.8rem;
+}
+ol.list-posters li.subgroup-counter-ONCO {
+	counter-increment:my-awesome-counter-ONCO; 
+	display:flex; 
+	font-size:0.8rem;
+}
+ol.list-posters li.subgroup-counter-MFBM {
+	counter-increment:my-awesome-counter-MFBM; 
+	display:flex; 
+	font-size:0.8rem;
+}
+ol.list-posters li.subgroup-counter-EDUC {
+	counter-increment:my-awesome-counter-EDUC; 
+	display:flex; 
+	font-size:0.8rem;
+}
+ol.list-posters li.subgroup-counter-NEUR {
+	counter-increment:my-awesome-counter-NEUR; 
+	display:flex; 
+	font-size:0.8rem;
+}
+ol.list-posters li.subgroup-counter-POPD {
+	counter-increment:my-awesome-counter-POPD; 
+	display:flex; 
+	font-size:0.8rem;
+}
+
+/* COLORS/FORMATTING OF COUNTERS */
+ol.list-posters li.subgroup-counter-OTHE:before {
+    content: counter(my-awesome-counter-OTHE);
+    font-weight: bold; 
+    font-size: 2rem; 
+    margin-right: 0.5rem; 
+    font-family: Arial; 
+    line-height: 1; 
+    color: #c1c1c1 !important;
+}
+ol.list-posters li.subgroup-counter-CDEV:before {
+    content: counter(my-awesome-counter-CDEV);
+    font-weight: bold; 
+    font-size: 2rem; 
+    margin-right: 0.5rem; 
+    font-family: Arial; 
+    line-height: 1; color: #a6c7ea !important;
+}
+ol.list-posters li.subgroup-counter-IMMU:before {
+    content: counter(my-awesome-counter-IMMU);
+    font-weight: bold; 
+    font-size: 2rem; 
+    margin-right: 0.5rem; 
+    font-family: Arial; 
+    line-height: 1; 
+    color: #91cfb6 !important; 
+}
+ol.list-posters li.subgroup-counter-MEPI:before {
+    content: counter(my-awesome-counter-MEPI);
+    font-weight: bold; 
+    font-size: 2rem; 
+    margin-right: 0.5rem; 
+    font-family: Arial; 
+    line-height: 1; 
+    color: #b9cab0 !important; 
+}
+
+ol.list-posters li.subgroup-counter-ONCO:before {
+    content: counter(my-awesome-counter-ONCO);
+    font-weight: bold; 
+    font-size: 2rem; 
+    margin-right: 0.5rem; 
+    font-family: Arial; 
+    line-height: 1; 
+    color: #ceb3d3 !important;
+}
+ol.list-posters li.subgroup-counter-MFBM:before {
+    content: counter(my-awesome-counter-MFBM);
+    font-weight: bold; 
+    font-size: 2rem; 
+    margin-right: 0.5rem; 
+    font-family: Arial; 
+    line-height: 1; 
+    color: #fdbe7d !important;
+}
+
+ol.list-posters li.subgroup-counter-EDUC:before {
+    content: counter(my-awesome-counter-EDUC);
+    font-weight: bold; 
+    font-size: 2rem; 
+    margin-right: 0.5rem; 
+    font-family: Arial; 
+    line-height: 1; 
+    color: #6899ad !important; 
+}
+
+
+ol.list-posters li.subgroup-counter-NEUR:before {
+    content: counter(my-awesome-counter-NEUR);
+    font-weight: bold; 
+    font-size: 2rem; 
+    margin-right: 0.5rem; 
+    font-family: Arial; 
+    line-height: 1;
+    color: #f59598 !important; 
+}
+ol.list-posters li.subgroup-counter-POPD:before {
+    content: counter(my-awesome-counter-POPD);
+    font-weight: bold; 
+    font-size: 2rem; 
+    margin-right: 0.5rem; 
+    font-family: Arial; 
+    line-height: 1; 
+    color: #cdab90 !important;
+}
+
+
+
+

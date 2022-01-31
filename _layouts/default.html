@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{page.title}} | {{site.name}}</title>
+
+    {% seo %}
+
+    <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+    
+
+
+    
+
+		<!-- Bootstrap Modified -->
+		{% if page.url == "/" %}
+			<link rel="stylesheet" href="./assets/css/main.css">
+		{% else %}
+			<link rel="stylesheet" href="../assets/css/main.css">
+		{% endif %}
+		
+		<!-- Theme Stylesheet -->
+		{% if page.url == "/" %}
+			<link rel="stylesheet" href="./assets/css/theme.css">
+		{% else %}
+			<link rel="stylesheet" href="../assets/css/theme.css">
+		{% endif %}
+		
+		<!-- Custom Themes Stylesheet -->
+		{% if page.url == "/" %}
+			<link rel="stylesheet" href="./assets/css/custom.css">
+		{% else %}
+			<link rel="stylesheet" href="../assets/css/custom.css">
+		{% endif %}
+
+
+
+    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+    <script src="{{site.baseurl}}/assets/js/custom.js"></script>
+
+
+    {% include tracking-header.html %}
+
+
+</head>
+
+<body class="{% if page.url == "/" %} homefirstpage {% endif %}">
+
+    <!-- Navbar -->
+    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarColor02" style="">
+            <ul class="navbar-nav mr-auto d-flex align-items-center">
+               {% include menu-header.html %}
+            </ul>
+<!--
+            <ul class="navbar-nav ml-auto d-flex align-items-center">
+                {% include search-lunr.html %}
+            </ul>
+-->
+        </div>
+    </div>
+    </nav>
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+
+    <!-- Content -->
+    <main role="main" class="site-content">
+        {{ content }}
+    </main>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    
+    {% if page.url == "/" %}
+    	<script src="./assets/js/theme.js"></script>
+		{% else %}
+			<script src="../assets/js/theme.js"></script>
+		{% endif %}
+    
+    
+
+    <!-- Footer <div class="row justify-content-between"> -->
+    <footer class="bg-white border-top p-3 text-muted small">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+	          	
+	          	<span class="navbar-brand mr-2 mb-0"><strong>SMB 2020 Sponsors</strong></span></br>
+	          	<img class="w-100" src="{{site.baseurl}}/assets/images/sponsors.png" alt="SMB Sponsors">
+                
+          </div>
+        </div>
+        
+        </br>
+        
+        <div class="row">
+          <div class="col-12"> 
+						<span class="navbar-brand mr-2 mb-0"><strong>Organizing Committee</strong></span> 
+          </div>
+        </div>
+        
+        </br>
+        <div class="row">
+	        	        
+          <div class="col-4"> 
+	           
+						<ol class="list-featured">
+			        <li class="mb-4">
+			          <span>
+			              <h6 class="font-weight-bold" style="margin-bottom: -1px;">
+			                  Heiko Enderling (Co-Chair)
+			              </h6>
+			              <span class="d-block text-muted">
+			                  <span class="catlist text-capitalize text-muted smoothscroll">H. Lee Moffitt Cancer Center, USA<span class="sep"></span></span>
+			              </span>
+			          </span>
+			        </li>
+			        
+			        <li class="mb-4">
+			          <span>
+			              <h6 class="font-weight-bold" style="margin-bottom: -1px;">
+			                  Amber Smith (Co-Chair)
+			              </h6>
+			              <span class="d-block text-muted">
+			                  <span class="catlist text-capitalize text-muted smoothscroll">University of Tennessee Health Science Center, USA<span class="sep"></span></span>
+			              </span>
+			          </span>
+			        </li>
+			        
+			        <li class="mb-4">
+			          <span>
+			              <h6 class="font-weight-bold" style="margin-bottom: -1px;">
+			                  Sandy Anderson
+			              </h6>
+			              <span class="d-block text-muted">
+			                  <span class="catlist text-capitalize text-muted smoothscroll">H. Lee Moffitt Cancer Center, USA<span class="sep"></span></span>
+			              </span>
+			          </span>
+			        </li>
+				  	
+				  								        
+			        <li class="mb-4">
+			          <span>
+			              <h6 class="font-weight-bold" style="margin-bottom: -1px;">
+			                  Ruth Baker
+			              </h6>
+			              <span class="d-block text-muted">
+			                  <span class="catlist text-capitalize text-muted smoothscroll">University of Oxford, UK<span class="sep"></span></span>
+			              </span>
+			          </span>
+			        </li>
+			        
+			        
+			        
+						  </ol>
+          </div>
+            
+          <div class="col-4">
+            <ol class="list-featured-second">	
+	            <li class="mb-4">
+			          <span>
+			              <h6 class="font-weight-bold" style="margin-bottom: -1px;">
+			                  Denise Kirschner
+			              </h6>
+			              <span class="d-block text-muted">
+			                  <span class="catlist text-capitalize text-muted smoothscroll">University of Michigan, USA<span class="sep"></span></span>
+			              </span>
+			          </span>
+			        </li>
+			        
+			        <li class="mb-4">
+			          <span>
+			              <h6 class="font-weight-bold" style="margin-bottom: -1px;">
+			                  Torbjörn Lundh
+			              </h6>
+			              <span class="d-block text-muted">
+			                  <span class="catlist text-capitalize text-muted smoothscroll">Chalmers and University of Gothenburg, Sweden<span class="sep"></span></span>
+			              </span>
+			          </span>
+			        </li>					        
+			        <li class="mb-4">
+			          <span>
+			              <h6 class="font-weight-bold" style="margin-bottom: -1px;">
+			                  John Nardini
+			              </h6>
+			              <span class="d-block text-muted">
+			                  <span class="catlist text-capitalize text-muted smoothscroll">NC State University, USA<span class="sep"></span></span>
+			              </span>
+			          </span>
+			        </li>
+			        
+			        
+			        <li class="mb-4">
+			          <span>
+			              <h6 class="font-weight-bold" style="margin-bottom: -1px;">
+			                  Marissa Renardy
+			              </h6>
+			              <span class="d-block text-muted">
+			                  <span class="catlist text-capitalize text-muted smoothscroll">University of Michigan, USA<span class="sep"></span></span>
+			              </span>
+			          </span>
+			        </li>
+			        
+			      </ol>
+          </div>		
+          
+          <div class="col-4">
+	          <ol class="list-featured-second">	
+	          
+	          	<li class="mb-4">
+			          <span>
+			              <h6 class="font-weight-bold" style="margin-bottom: -1px;">
+			                  Santiago Schnell
+			              </h6>
+			              <span class="d-block text-muted">
+			                  <span class="catlist text-capitalize text-muted smoothscroll">University of Michigan, USA<span class="sep"></span></span>
+			              </span>
+			          </span>
+			        </li>
+			        
+			        <li class="mb-4">
+			          <span>
+			              <h6 class="font-weight-bold" style="margin-bottom: -1px;">
+			                  Elissa Schwartz
+			              </h6>
+			              <span class="d-block text-muted">
+			                  <span class="catlist text-capitalize text-muted smoothscroll">Washington State University, USA<span class="sep"></span></span>
+			              </span>
+			          </span>
+			        </li>
+			        
+			        <li class="mb-4">
+			          <span>
+			              <h6 class="font-weight-bold" style="margin-bottom: -1px;">
+			                  Jeffrey West
+			              </h6>
+			              <span class="d-block text-muted">
+			                  <span class="catlist text-capitalize text-muted smoothscroll">H. Lee Moffitt Cancer Center, USA<span class="sep"></span></span>
+			              </span>
+			          </span>
+			        </li>
+			        
+			        <li class="mb-4">
+			          <span>
+			              <h6 class="font-weight-bold" style="margin-bottom: -1px;">
+	                  		Ping Ye 
+			              </h6>
+			              <span class="d-block text-muted">
+			                  <span class="catlist text-capitalize text-muted smoothscroll">South Dakota State University, USA<span class="sep"></span></span>
+			              </span>
+			          </span>
+			        </li>
+	          </ol>
+	          
+	          <span>Copyright SMB © <script>document.write(new Date().getFullYear())</script>.</span>
+          </div>
+                
+        </div> <! -- end row justify-content-between --> 
+      </div>
+    </footer>
+
+    {% include tracking-footer.html %}
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+---
+layout: single-poster
+author: esmb
+day: "All"
+group: "poster"
+title: "Akt regulates PIP3 production by PI3K to form a potent negative feedback loop"
+subgroup: "OTHE"
+presenter: "Milad  Ghomlaghi"
+institution: "Monash University"
+abstract: "The phosphoinositide 3-kinase (PI3K)-Akt pathway is a central component of signalling networks and is dysregulated in numerous pathologies. As such, its activity is under the tight control of several feedback signals, which work to control signal flow and ensure signal fidelity. A rapid overshoot in the insulin-stimulated recruitment of Akt to the plasma membrane has previously been reported, which is indicative of negative feedback operating on acute timescales. Here, using computational modelling and cell biology we show that described mTORC1/S6K-dependent feedback mechanisms do not account for this behaviour. However, our system-based analysis suggests that another negative feedback must exist within the network to explain the overshoot in the recruitment of Akt to the plasma membrane. To identify this negative feedback, six different mathematical models are constructed that represent different possible negative feedback scenarios. Interrogating these models based on their quality of fitness to the experimental data allows us to reject unlikely candidate feedback mechanisms and guide experiment towards the most likely feedback model. Integrating model simulation and biological validation using live cell imaging and biochemical assays methods, we demonstrate existence of a negative feedback from Akt to PIP3, which limits plasma membrane associated PI3K and phosphatidylinositol (3,4,5)-trisphosphate (PIP3) synthesis. This feedback is both rapid and powerful - suppression of the feedback using Akt inhibitors increased PIP3 abundance by ~5-fold within 10 min of insulin stimulation. This had profound effects on the localisation of PIP3-binding proteins such as PDK1 and GAB2, as well as the activation of MAPK signalling. As a feature of multiple cell types and growth factors, this novel Akt-dependent feedback loop plays a vital role in regulating PIP3 abundance and thus has important implications for therapies targeting Akt."
+---

@@ -1,0 +1,20 @@
+---
+layout: group
+author: esmb
+day: "Monday"
+group: "CT1"
+title: "Subgroup Contributed Talks"
+subgroup: "MEPI"
+author1: "Vijay Pal Bajiya"
+author2: "Evan Mitchell"
+author3: "Jeremy D'Silva"
+inst1: "Rajasthan University"
+inst2: "Western University"
+inst3: "University of Michigan / Stanford University"
+title1: "The Impacts of Awareness and Medical Resources on Multi-group SIR Epidemic Model"
+title2: "The Effect of Host Prophylactic Behaviour on Pathogen Evolution"
+title3: "Identifiability of linear compartmental models of infectious disease transmission"
+abstract1: "When an infectious disease occurs and spreads in a community, then the government department of disease control tries every conceivable afford to avoid and prevent disease transmission. The treatment of infective individuals is a signficant method to reduce infection risk and control the spreads of infectious diseases. In this work, we propose an SIR multi-group epidemic model with the awareness of susceptible population and saturated treatment function, which describes the effects of the availability of medical resources for treatment. We assume that treatment of the infected individuals of a group is affected by the medical resources for the treatment of each group. The basic reproduction number R0 is computed. The local and global stability of equilibrium has been determined in the term of R0 and availability of medical resources for treatment. The occurrence of backward bifurcation have been discussed at R0 = 1 and the existence of multiple endemic equilibria when R0 < 1: The global stability of unique endemic equilibrium has been showed with help of some graph-theoretic techniques when R0 > 1: Finally, numerical simulations of the system are also presented in various cases to support and counterpart the obtained theoretical results. We discussed the impacts of the awareness of the susceptible population and the availability of medical resources for treatment in every group on the epidemic size of each group." 
+abstract2: "Much work has considered the evolution of pathogens, but little is known about how they respond to changes in host behaviour. We build a model of sublethal disease effects where hosts are able to choose to engage in prophylactic measures that reduce the likelihood of disease transmission (e.g., hand washing, social distancing). This choice is mediated by utility costs and benefits associated with prophylaxis, and the fraction of hosts engaged in prophylaxis is also affected by population dynamics. When prophylactic host behaviour occurs, we find that the level of pathogen host exploitation is reduced, by the action of selection, relative to the level that would otherwise be predicted in the absence of prophylaxis. Our work emphasizes the significance of the transmission-recovery trade-off faced by the pathogen and the ability of the pathogen to influence host prophylactic behaviour."
+abstract3: "Successful parameter estimation for mathematical models generally requires that the estimated parameters are unique. The property of unique estimates for a given output trajectory is called structural identifiability: a system is globally (resp. locally) structurally identifiable if the map from parameters to output trajectories is injective (resp. has finite fibers). Identifiability is especially important for infectious diesease models, since the parameter estimates are used for generating predictions and comparing outbreak intervention strategies. In this paper, we apply differential algebra techniques to study the structural identifiability of multistage infectious disease models (generalizations of the $SEIR$ model with multiple $I$ stages). We prove that these models are not structurally identifiable from incidence data, and we determine the rational functions of parameters that can be estimated from incidence data, called identifiable combinations, for the case where each $I$ stage has equal duration. We conjecture the identifiable combinations of the general model; we provide computational evidence for the conjecture and verify it for models with 2 infectious stages."
+---

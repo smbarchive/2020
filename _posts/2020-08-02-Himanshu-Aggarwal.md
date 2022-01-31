@@ -1,0 +1,12 @@
+---
+layout: single-poster
+author: esmb
+day: "All"
+group: "poster"
+title: "Impact of temperature change on Malaria incidence in high altitude regions of India"
+subgroup: "MEPI"
+presenter: "Himanshu  Aggarwal"
+institution: "Indian Institute of Science Education and Research (IISER) Mohali"
+abstract: "Malaria is a vector (mosquito)-borne parasitic disease, which is a major cause of death and disability in the world around the equatorial belt. The mosquitoes require a range of temperature and humidity to reproduce and persist, and the Malaria parasite (species of Plasmodium) uses both mosquito and human as their host for growth and reproduction. The cooler regions, such as the cold high altitude mountainous areas, therefore, witness fewer Malaria cases. An increase in temperature, as a possible consequence of global warming, is hypothesized to drive the spread of the malarial vectors to higher altitudes, by rendering these regions suitable for their growth, and consequent increase in Malaria incidence. But this view is hotly debated with evidence existing both against and in favour. Therefore, there is a need for more empirical evidence covering a wide variety of regions all around the world. 
+A detailed study is performed, on a historical dataset (1975-1995) of Malaria cases in 19 contiguous districts from the three north-western states of India having an altitude higher than 1000 meters, for the analysis of the impact of temperature changes on Malaria incidence in these high altitude regions. In reality, the mean temperatures do not show a consistent increase over the years, and the vegetation, rainfall, and other environmental and demographic factors also differ among the regions and years. Using different data analytic and statistical measures, the results, though collectively do not provide a definite evidence for climate change-induced increase in Malaria in the high altitude regions under study, yet they do point towards increased malaria cases with an increase in temperature. It also points out that many other drivers may be responsible for the spread of an infectious disease like Malaria (e.g., population density, tourism, water bodies, agricultural land-use, etc.), which needs to be considered. This argues in favour of considering epidemiological data from a more interdisciplinary perspective by including demographic, environmental, social and economic driving factors in analysis and modelling."
+---

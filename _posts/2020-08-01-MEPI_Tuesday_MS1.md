@@ -1,0 +1,25 @@
+---
+layout: group
+author: esmb
+day: "Tuesday"
+group: "MS1"
+title: "Modeling COVID-19 to inform control efforts, Part II"
+organizers: "Jane Heffernan and John Glasser"
+subgroup: "MEPI"
+author1: "Annelies Wilder-Smith"
+author2: "Samuel Clifford"
+author3: "Jonathan Dushoff"
+author4: "Caroline Colijn"
+inst1: "Umea University"
+inst2: "LSHTM"
+inst3: "McMaster University"
+inst4: "Simon Fraser University"
+title1: "COVID-19 Outbreak on the Diamond Princess Cruise Ship: Estimating the Epidemic Potential and Effectiveness of Public Health Countermeasures"
+title2: "Can traveller interventions delay a local outbreak?"
+title3: "Time distributions and coronavirus control"
+title4: "Modelling and estimation for COVID19: classic estimates of key parameters and the role of genomic data"
+abstract1: "Background: Cruise ships carry a large number of people in confined spaces with relative homogeneous mixing. On 3 February, 2020, an outbreak of COVID-19 on cruise ship Diamond Princess was reported with 10 initial cases, following an index case on board around 21-25th January. By 4th February, public health measures such as removal and isolation of ill passengers and quarantine of non-ill passengers were implemented. By 20th February, 619 of 3700 passengers and crew (17%) were tested positive. Methods: We estimated the basic reproduction number from the initial period of the outbreak using SEIR models. We calibrated the models with transient functions of countermeasures to incidence data. We additionally estimated a counterfactual scenario in absence of countermeasures, and established a model stratified by crew and guests to study the impact of differential contact rates among the groups. We also compared scenarios of an earlier versus later evacuation of the ship. Results: The basic reproduction rate was initially 4 times higher on-board compared to the R0 in the epicentre in Wuhan, but the countermeasures lowered it substantially. Based on the modeled initial R0 of 14.8, we estimated that without any interventions within the time period of 21 January to 19 February, 2920 out of the 3700 (79%) would have been infected. Isolation and quarantine therefore prevented 2307 cases, and lowered the ${R}_0$ to 1.78. We showed that an early evacuation of all passengers on 3 February would have been associated with 76 infected persons in their incubation time. Conclusions: The cruise ship conditions clearly amplified an already highly transmissible disease. The public health measures prevented more than 2000 additional cases compared to no interventions. However, evacuating all passengers and crew early on in the outbreak would have prevented many more passengers and crew from infection." 
+abstract2: "Interventions aimed at travellers, such as syndromic screening, sensitisation to symptoms, and contact tracing on onset of symptoms may help delay the establishment of a SARS-CoV-2 outbreak in a previously unaffected country. Here we consider how the probability of detecting an infected traveller varies with the sensitivity of screening and duration of travel relative to the incubation period. We also show how a combination of these traveller interventions may be effective at delaying the establishment early on in a global outbreak but become less effective as the rate at which infected travellers arrive increases."
+abstract3: "Early investigations of coronavirus epidemiology have highlighted a number of practical (and interesting) questions about time distributions, including generation and serial intervals; and latent, incubation, and infectious periods. I will discussing different ways of measuring (and defining) these distributions, and implications for disease prediction and control."
+abstract4: "The novel coronavirus that was identified in Wuhan, China in December 2019 spread widely following reports of initial cases who were likely exposed at the Huanan seafood market in the city of Wuhan. The subsequent spread, rapid control measures, and reported international cases caused global public health concern. The scientific community responded rapidly, sharing data for modelling and estimation, and sharing viral sequences. These strongly suggested that there was a single introduction event from an animal reservoir to humans in approximately November 2019. However, key epidemiological parameters remained uncertain even in late February, as reporting fractions and social distancing measures varied between places, and because the time at which an individual is infected is of course unknown. We present early estimates of the incubation period and serial interval for several reported clusters, using contact tracing data. We describe the differences in model predictions based on these estimates and early models based on SARS parameters. We then discuss how early viral sequences and classic epidemiological estimates of key parameters can be integrated to refine estimates and inform transmission models."
+---

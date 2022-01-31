@@ -1,0 +1,226 @@
+---
+title: "SMB2020 Tuesday Schedule"
+layout: default
+pagination:
+    enabled: false
+description: "The Society for Mathematical Biology - e-Conference 2020."
+day: "Tuesday"
+ms1: "MS1"
+ms2: "MS2"
+ct1: "CT1"
+ms1time: "9:30-11:00am"
+ms2time: "11:15am-12:45pm"
+ct1time: "1:30-2:30pm"
+---
+
+
+<div class="container">
+	
+	<div class="col-md-12 main-loop">
+	    <div class="row">
+	        <div class="col-md-12  text-center">
+		        <h1 class="mb-3">Schedule for Tuesday, August 18</h1>
+		        
+		        {% include clock.html %}
+		        
+		        <div class="row">
+			        <div class="col-md-5 offset-md-3">
+				        <a href="https://www.smb.org/"><img class="w-100" src="{{site.baseurl}}/assets/images/smb-motion-logo.gif" alt="SMB Logo"></a>        
+
+								
+								</br>
+								</br>
+								
+							  {% include schedule_menu.html %}
+
+
+				        
+			        </div>
+		        </div>
+	        </div>
+	    </div>
+	</div>
+	
+	<div class="row">
+		<div class="col-6 text-left">
+			<strong>Legend / Color-coding: </strong>
+			<ul>
+				<li><span class="uMEPI">MEPI</span> (Mathematical Epidemiology)</li>
+				<li><span class="uCDEV">CDEV</span> (Cell and Developmental Biology)</li>
+				<li><span class="uEDUC">EDUC</span> (Education)</li>
+				<li><span class="uIMMU">IMMU</span> (Immunobiology and Infection)</li>
+				<li><span class="uNEUR">NEUR</span> (Mathematical Neuroscience)</li>
+			</ul>
+	  </div>
+	  <div class="col-6 text-left">
+			<ul>
+				</br>
+				<li><span class="uMFBM">MFBM</span> (Methods for Biological Modeling)</li>
+				<li><span class="uPOPD">POPD</span> (Population Dynamics, Ecology & Evolution)</li>         
+				<li><span class="uONCO">ONCO</span> (Mathematical Oncology)</li>
+				<li><span class="uOTHE">OTHE</span> (Other)</li>
+			</ul>
+	  </div>
+	</div>
+	
+	{% include coffee.html %}
+    
+	<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem MEPI position-relative">
+    <div class="pl-4 pr-0 h-100 tofront">
+        <div class="row justify-content-between">
+            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
+                <h1 class="mb-3" id="opening">Subgroup Keynote</h1>
+                <h4 class="mb-3">8:30am</h4>
+                <p class="mb-3 lead">Deirdre Hollingsworth, </br>Oxford Big Data Institute, <a href="https://twitter.com/DeirdreHoll">@DeirdreHoll</a></p>
+                <p>Mathematical Epidemiology Subgroup</p>
+
+            </div>
+            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
+								<span>
+				          <a href="https://www.ntdmodelling.org/">
+		              	<img src="{{site.baseurl}}/assets/images/deirdre.jpg" class="rounded-circle" alt="Deirdre Hollingsworth" style="height: 200px;">
+		              </a>
+			          </span>
+            </div>             
+        </div>
+    </div>
+	</div>
+	
+	<div class="row mt-3">   
+		<div class="col-md-12 main-loop">
+			
+			<!-- Early Morning Minisymposium -->
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem parallel position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <h1 class="mb-3" id="MS1">Sub-group minisymposia (9:30-11:00am)</h1>
+		                {% include talks.html myday=page.day mygroup=page.ms1 mytime=page.ms1time %}
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			
+			{% include morning_break.html %}
+
+			<!-- Late Morning Minisymposium -->
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem parallel position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <h1 class="mb-3" id="MS2">Sub-group minisymposia (11:15am)</h1>
+		                {% include talks.html myday=page.day mygroup=page.ms2 mytime=page.ms2time %}
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem concurrent position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <h1 class="mb-3" id="lunch">Subgroup Business Meeting</h1>
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem parallel position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <h1 class="mb-3" id="CT1">Sub-group contributed talks (1:30-2:30pm)</h1>
+		                {% include talks.html myday=page.day mygroup=page.ct1 mytime=page.ct1time %}
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem concurrent position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <h1 class="mb-3" id="poster">Poster Session (2:30-3:30pm)</h1>
+		                {% include poster_menu.html %}
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem ONCO position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <h1 class="mb-3" id="keynote">Sub-group Keynote</h1>
+		                <h4 class="mb-3">3:30pm</h4>
+		                <p class="mb-3 lead">Andrea Bild, </br>City of Hope, <a href="https://twitter.com/AndreaBildLab">@AndreaBildLab</a></p>
+		                <p>Mathematical Oncology Subgroup</p>
+		            </div>
+		            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
+										<span>
+						          <a href="https://bildlab.org/">
+				              	<img src="{{site.baseurl}}/assets/images/bild.jpg" class="rounded-circle" alt="Priyanga Amarasekare" style="height: 200px;">
+				              </a>
+					          </span>
+		            </div>             
+		        </div>
+		        
+		        <div class="row justify-content-between">
+				      <div class="col-12 pt-6 pb-6 pr-lg-4 align-self-center" style="margin-top: -150px;">
+				        <p class="mb-3 lead">Competitive and cooperative interactions between resistant and sensitive breast cancer cells during therapy</p>
+				        <p> 
+					        Our research focuses on estrogen receptor positive breast (ER+) cancer, the most commonly diagnosed and metastatic subtype. In a tumor, neighboring subclonal cancer cell populations interact both through competition for resources and through cooperation, by the production of growth promoting signals. Promoting competition can maintain drug sensitivity when resistant cells get outcompeted. Cooperation can promote cell survival under selective pressure, as well as potentially protect cellular populations that may otherwise be susceptible to treatment. Our research program integrates three key components to quantify cancer cell interactions: serial patient tumor samples molecularly profiled at the single cell level, a parallel in vitro model system where mechanisms can be tested through experimental manipulation and measured over time, and integrative dynamic mathematical models of the growth and interaction of subclonal cancer populations. By embedding the time course data and differential equation models into a Bayesian inference framework, we can estimate the strength of positive and negative interactions between subclonal populations during treatment and identify key mechanisms driving cell communication. Our analyses of patient derived samples further indicates that heterogeneous multi-clonal ER+ breast cell populations evolve to acquire alternative signaling states that drive cell cycle progression independent of estrogen availability, and that cells can cooperate to survive during therapy through the increased production and local sharing of growth promoting factors.
+					        
+				        </p>
+			        </div>
+			      </div>
+		        
+		        
+		    </div>
+			</div>
+			
+			{% include happy_hour.html %}
+			
+			</br>
+			</br>
+			
+			<div class="row">
+			  <div class="col-md-5 offset-md-3">
+				  {% include schedule_menu.html %}
+			  </div>
+			</div>
+			
+		</div>
+	</div>
+	
+	
+</div>
+
+
+<div class="alertbar">
+  <div class="container">
+    <div class="row prevnextlinks small font-weight-bold">
+      <div class="col-12 text-center pl-0">		            
+				<span class="click-legend" id="switch-text" onclick="abstractsHide()">
+					Click to show abstracts
+				</span>		            
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

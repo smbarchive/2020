@@ -1,0 +1,26 @@
+---
+layout: group
+author: esmb
+day: "Monday"
+group: "MS1"
+subgroup: "POPD"
+title:  "Stochastic Population Dynamics"
+organizers: "Peter Jagers & Carmen Minuesa Abril"
+description: "Recent developments in stochastic population dynamics involve interplay between environment and population, notably population size through a carrying capacity. This results in dependence between reproducing individuals and, hence, a framework which has hitherto not been accessible through models allowing individual, stochastic variation. The life-time and starting conditions of suitably scaled processes as well as inference about the carrying capacity itself will be discussed."
+author1: "Fima C. Klebaner"
+author2: "Sophie Hautphenne"
+author3: "Carmen Minuesa Abril"
+author4: "Göran Högnäs"
+inst1: "Monash University"
+inst2: "Univeristy of Melbourne"
+inst3: "Autonomous University of Madrid"
+inst4: "Åbo Akademi University"
+title1: "Appearance of random initial conditions in the Wright-Fisher model"
+title2: "Inference in population-size-dependent branching processes"
+title3: "Estimation of the carrying capacity in a population-size-dependent branching process"
+title4: "Exit times of some nonlinear autoregressive processes"
+abstract1: "We consider the Wright-Fisher model with a positive selection parameter and a small di↵usion co- e cient. When the starting point is near zero, and the time goes to infinity appropriately as the noise goes to zero, we show that the approximating solution follows the logistic equation with a random initial condition. This condition has the form H(W), where H(x) is the scaled limit of the deterministic flow, and W is the long time limit of the approximating Feller di↵usion. This is joint work with J. Baker and K. Hamza (Monash University) and P. Chigansky (Hebrew University). More general results appeared in the paper “Persistance of small noise and random initial conditions” Adv. Appl. Probab. 2018, 50(A)." 
+abstract2: "Population-size-dependent branching processes (PSDBPs) are models which describe the evolution of populations where individuals in the same generation give birth independently according to a probability distribution which depends on the current population size. One important class of PSDBPs are branching processes with a carrying capacity; these are appropriate for modelling populations that exhibit logistic growth, where the population size tends to fluctuate, for a long period of time, around a threshold value corresponding to the maximum number of individuals that an ecosystem can support. We propose an estimator for the mean of the o↵spring distribution at each population size in a discrete- time PSDBP, based on the observation of the total population sizes up to some generation. Our main challenge is the fact that branching processes with a carrying capacity eventually become extinct with probability one (after a long time). We propose a way to derive asymptotic properties of the estimator in this setting. This leads to a number of questions about desired properties of estimators in branching processes that almost surely become extinct. (Joint work with Peter Braunsteins and Carmen Minuesa Abril.)"
+abstract3: "In this talk we deal with the estimation of the parameters of branching processes with a carrying capacity, which is the maximum population size of the species that the environment can sustain given the resources available in the environment. In these processes, the population size grows logistically and lingers for a long period of time around the carrying capacity before eventually becoming extinct. We consider discrete-time branching processes with a carrying capacity and assume that the offspring distributions belong to some parametric family with unknown parameter. Based on the observation of the population sizes, we propose several estimators for the target parameters, and in particular, for the carrying capacity. Finally, we illustrate the properties of these estimators via some examples. (Joint work with Peter Braunsteins and Sophie Hautphenne.)"
+abstract4: "We know from Klebaner and Nerman that certain size-dependent branching processes are well approximated by autoregressive processes, at least in the short run. Our aim is to estimate the exit time of some nonlinear autoregressive processes and hereby gain insight into the problem of determining the expected life time of the corresponding size-dependent branching process. Let {Xn}, n = 0, 1, 2, . . ., be a stochastic process defined by the recursion formula Xn+1 = f(Xn)+ e C n+1, X0 = 0 in Rd where f is a mapping from Rd to itself and the C’s are a sequence of i.i.d. normal random variables. e is a small nonnegative parameter. We assume that f(0) = 0 and that f is in some sense contracting so that the resulting Markov chain is positive recurrent. In the one-dimensional case we take f to be, for example, a piecewise linear function or a piecewise polynomial. The aim is to investigate, asymptotically as e goes to 0, the expected time until the process exits from the interval [-1,1]. In the case of linear autoregressive processes the asymptotics of the expected exit times was treated in Jung. (Joint work with Brita Jung.)"
+---

@@ -1,0 +1,29 @@
+---
+layout: group
+author: esmb
+day: "Tuesday"
+group: "MS1"
+subgroup: "MFBM"
+title:  "Topological and network analyses for data"
+organizers: "John Nardini and Maria-Veronica Ciocanel"
+description: "The era of big data has challenged researchers to develop novel methods to succinctly summarize and analyze complex datasets.
+Such methods include network and topological data analysis (TDA), which use methods from graph theory, dynamical systems, and topology to describe the patterns underlying a given data set over different scales. These areas of data science have proven successful for analyzing many biological phenomena, including disease transmission, ecological swarming, medical diagnostics, and within-cell protein interactions. In this minisymposium, as part of the SMB subgroup on Methods for Biological Modeling, the speakers will highlight the topological analysis of biological data. Topological techniques such as persistent homology can help characterize networks in genomic, tumour vessel, and physiological data. Challenges in this area include developing frameworks for incorporating TDA with network analysis, the statistical analysis of topological computations, and interpretation of biological data through such topological methods."
+author1: "Maria-Veronica Ciocanel"
+author2: "John Lagergren"
+author3: "John Nardini"
+author4: "Adelie Garin"
+inst1: "Duke University,	United States,	ciocanel@math.duke.edu"
+inst2: "NC State,	United States,	jhlagerg@ncsu.edu"
+inst3: "NC State,	United States,	jtnardin@ncsu.edu"
+inst4: "EPFL, Switzerland, adelie.garin@epfl.ch"
+title1: "Ring Channel Dynamics using Topological Data Analysis"
+title2: "Biologically-informed neural networks guide mechanistic modeling from sparse experimental data"
+title3: "Analyzing Collective Motion with Machine Learning and Topology"
+title4: "Topological Data Analysis for (biological) image analysis"
+abstract1: "Contractile rings are structures made of actin filaments that are important in development, wound healing, and cell division. In many model organisms, ring channels allow nutrient exchange to developing egg cells and are regulated by forces exerted by myosin motor proteins. I will present an agent-based modeling and data analysis framework for the interactions between filaments and motor proteins inside cells. This approach may provide key insights for the mechanistic differences between two motors that are believed to maintain the rings at a constant diameter. In particular, we develop methods leveraging topological data analysis techniques to investigate time-series data of filament interactions. Our proposed methods clearly reveal the impact of kinetic parameters on significant topological hole formation, thus giving insight into ring channel formation and maintenance. I will also discuss methods available for distinguishing between noise and signal in these topological summaries of the filament organization through time." 
+abstract2: "Biologically-informed neural networks (BINNs), an extension of physics-informed neural networks, are introduced and used to discover the underlying dynamics of biological systems from sparse experimental data. In the present work, BINNs are trained in a supervised learning framework to approximate in vitro cell biology assay experiments while respecting a generalized form of the governing reaction-diffusion partial differential equation (PDE). By allowing the diffusion and reaction terms to be multilayer perceptrons (MLPs), the nonlinear forms of these terms can be learned while simultaneously converging to the solution of the governing PDE. Further, the trained MLPs are used to guide the selection of biologically interpretable mechanistic forms of the PDE terms which provides new insights into the biological and physical mechanisms that govern the dynamics of the observed system. The method is evaluated on sparse real-world data from wound healing assays with varying initial cell densities."
+abstract3: "We use topological data analysis and machine learning to study a seminal model of collective motion in biology. This model describes agents interacting nonlinearly via attractive-repulsive social forces and gives rise to collective behaviors such as flocking and milling. To classify the emergent collective motion in a large library of numerical simulations and to recover model parameters from the simulation data, we apply machine learning techniques to two different types of input. First, we input time series of order parameters traditionally used in studies of collective motion. Second, we input measures based on topology that summarize the time-varying persistent homology of simulation data over multiple scales. This topological approach does not require prior knowledge of the expected patterns. For supervised machine learning methods for classification of mechanistic model parameters, the topological approach outperforms the one that is based on traditional order parameters."
+abstract4: "Topological data analysis (TDA) methods extract features representing the number of connected components, loops and cavities of shapes at different scales through an iterative process called a filtration. In this talk, we describe several TDA tools to improve image processing (classification, comparison and reconstruction). These methods provide a global view of images, which takes into account intrinsic geometric and topological properties of the images and complement standard methods very well. They can be used for several purposes in image analysis: classification (of leaves, cells, neuron shapes,…), comparison (to differentiate a healthy tissue from a tumour for instance) or to help optimisation algorithms to reconstruct deteriorated images (for example to reconstruct 3D neuron images from scanned sliced brains)."
+---
+
+

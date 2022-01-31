@@ -1,0 +1,15 @@
+---
+layout: single-poster
+author: esmb
+day: "All"
+group: "poster"
+title: "Mathematical modeling of the relationship between T cell produced Wnt10b and the bone remodeling cycle"
+subgroup: "MFBM"
+presenter: "Carley Cook"
+institution: "Oklahoma State University"
+abstract: "Bone health is determined by many factors including the remodeling cycle. At any time, many sections of bone are going through a remodeling cycle. Depending on different signaling factors, the cycle will end with the same amount of bone as at the beginning of the remodeling cycle (healthy) or increased or decreased amounts of bone (these changes contribute to chronic bone diseases). Recently immune cells have been identified as major signaling factors for this process. However, it is unclear how and to what extent they affect bone homeostasis.
+One way to better understand this phenomenon is to consider different foods or medicines that activate immune cells. LGG, for example, is a probiotic that increases butyrate production in the gut. Butyrate has been shown to indirectly increase bone density through a series of interconnected processes throughout the body that involve immune cells. One key process is the stimulation by regulatory T cells of production of Wnt10b within the bone compartment. This process has been shown to increase bone density.
+To quantify the bone density change caused by butyrate production a multi-compartment mathematical model was developed in two parts. The first part of the model predicts how much Wnt10b is increased in the bone marrow through the immune response (the processes occurring outside of the bone compartment and not included in this talk), and the second part predicts the change in bone homeostasis caused by the increase of Wnt10b (inside the bone compartment). 
+Here, we focus on the bone compartment. Wnt10b has been shown to alter osteoblastgenesis, osteoblast apoptosis rate, and osteoblast bone formation rate, which collectively lead to the increase of bone density. To model this change, we adapted a previously published and well-cited model of bone remodeling.  This ODE model includes the cell types typically involved in remodeling such as osteoclasts, osteoblasts, and osteocytes. The model also includes an ODE that tracks the amount of bone present at the remodeling site. We have adjusted the three terms related to an increase of Wnt10b by adding three new parameters. The parameters are estimated using data collected on mice. However, because our model is based on human physiology only normalized information will be used. The data was taken from graphs in a consistent manner by utilizing Plot Digitizer. The values of the parameters are found using MATLAB lsqcurvefit and differential equation solver ode45. This model was then validated using a separate set of mice data.
+The completed model connects immune system T cells to the bone remodeling cycle. This model improves the understanding of immune cell disturbances to bone homeostasis and can help identify targets for medical intervention of bone loss."
+---

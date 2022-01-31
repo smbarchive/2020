@@ -1,0 +1,11 @@
+---
+layout: single-poster
+author: esmb
+day: "All"
+group: "poster"
+title: "Projecting the time scale of initial increase in fishery yield after implementation of marine protected areas"
+subgroup: "POPD"
+presenter: "Caren  Barceló"
+institution: ""
+abstract: "Marine protected areas (MPAs) are being implemented globally to achieve conservation goals and benefit fisheries. However, MPAs require adaptive management to determine whether they are meeting their stated goals. This requires projection of the timing of increased performance after MPA establishment. Analyses of the projection of abundance and biomass have identified the information required and the expected timelines for meeting conservation goals. Projection of fishery yield, is more complex because it involves uncertain larval connectivity and the way in which the fishery is managed. Here, we develop a two-patch model with age structure represented by a renewal equation model to understand and to project the initial timing of the increase in fishery yield from larvae exported outside the MPA. By convolving a species-specific recruitment index with a yield-per-recruit equation, we are able to derive a yield function and yield timescale for each species. A key result is that the projection of yield is a weighted moving average of the larval production due to the projected MPA biomass, with the weightings being the age reversed age distribution of yield. Notably, this links MPA management to fishery management. Yield projection differs from the projection of MPA biomass in the sense that it depends on an uncertain factor due to uncertain connectivity. We demonstrate this mechanism with life histories of 16 harvested species found along the Pacific coast of the United States. The lag between the time of peak biomass within the MPA and the time that the increased fishery yield reaches its maximum depends on the pattern of the contribution to yield at each age. This age distribution of yield in turn depends on the age-dependent patterns of growth, natural mortality, and harvest. For the 16 species we considered, that lag ranged from 7 to 16 years. This general model and the range of exemplary species provide broadly applicable general guidance for this important emerging aspect of fisheries management."
+---

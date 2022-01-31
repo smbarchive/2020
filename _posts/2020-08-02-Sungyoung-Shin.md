@@ -1,0 +1,14 @@
+---
+layout: single-poster
+author: esmb
+day: "All"
+group: "poster"
+title: "A mathematical model of GβL (de)ubiquitination switch uncovers biphasic response within the PI3K/mTOR signalling network"
+subgroup: "OTHE"
+presenter: "Sungyoung  Shin"
+institution: "Monash University"
+abstract: "The PI3K/AKT/mTOR signalling pathway is a critical pathway in mammalian cells that regulates a broad array of cellular processes, including proliferation, survival and metabolism. G-protein beta-subunit-like (GβL or mLST8) has been long known as one of the shared subunits of both the mTORC1 and mTORC2 complexes. Recently, it was reported that the dynamic (de)ubiquitination of GβL generates a molecular switch mechanism that governs the binding of GβL towards Raptor and Sin1, core subunits of mTORC1 and 2, respectively; thereby actively coordinating the formation and abundances of these complexes. This new switch mechanism adds an extra layer of complexity to an already complex signalling network featuring abundant interlinked feedback regulation. However, how the GβL-mediated switch interplays with other regulatory mechanisms to control the dynamics and steady state behaviors of the PI3K/AKT/mTOR network is poorly understood. 
+Here we integrate computational network modelling and biological experiments in a systems-based framework to characterize the network-level properties of PI3K/mTOR signalling conferred by the GβL-regulated switch, and interrogate the impact on network behavior when this switch is disrupted. To this end, we construct a novel mechanistic mathematical model of the PI3K/mTOR network that explicitly considers the GβL switch. The model is quantitatively calibrated and kinetic parameters are estimated using time-course data obtained from Mouse Embryonic Fibroblasts (MEF) cells. 
+In contrast to previous studies indicating GβL is required for mTORC1 formation but not activity, our integrative in-silico/experimental analyses demonstrate that GβL is essential for formation as well as activation of both mTOR complexes. Importantly, mode simulations predict a previously unknown biphasic dependence of mTORC1 activity on Sin1, an integral component of mTORC2, revealing an intriguing non-linear functional linkage between the complexes. An increase of Sin1 from a low level initially promotes mTORC1 activity (first phase), but further increase of mSIN1 beyond a critical threshold (second phase) instead downregulates mTORC1 activity. We subsequently validate this prediction experimentally in MEF cells. 
+In summary, this study presents a novel mathematical model of the PI3K/mTOR pathway that enables quantitative analysis of the role of GβL in regulating network behaviours. Modelling and experimental validation confirms a biphasic dependency between mTORC1 and Sin1, which may help explain context-specific biological observations in cells with low and high levels of Sin1."
+---

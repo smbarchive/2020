@@ -1,0 +1,25 @@
+---
+layout: group
+author: esmb
+day: "Wednesday"
+group: "MS2"
+subgroup: "CDEV"
+title:  "Understanding development through theory and experiment"
+organizers: "Buttenschoen & Fletcher"
+author1: "Shane Hutson"
+author2: "Stanislav	Y	Shvartsman"
+author3: "Celeste Nelson"
+author4: "Roeland Merks"
+inst1: "Vanderbilt University"
+inst2: "Princeton University"
+inst3: "Princeton University"
+inst4: "Leiden University"
+title1: "Something's wrong in the (cellular) neighborhood: Mechanisms of wound detection in epithelia"
+title2: "From data to knowledge in studies of developmental patterning"
+title3: "How to fold a tube into a lung"
+title4: "Mathematical Modeling of Cell-Extracellular Matrix Interactions to Explain Collective Cell Behavior and Cell Migration"
+abstract1: "When a sheet of epithelial cells is wounded, cells around the wound are recruited from their near quiescent state to reactivate motility and proliferation behaviors similar to early development. As the first stage of that recruitment, surrounding epithelial cells undergo a dramatic increase in cytosolic calcium. This increase occurs quickly: calcium floods into damaged cells within 0.1 s, moves into adjacent cells over ~20 s, and appears in a much larger set of surrounding cells via a delayed second expansion over 40-300 s. Nonetheless, increased calcium is a reporter; cells must detect wounds even earlier. Using the calcium response as a proxy for wound detection, we identify an upstream G-protein-coupled-receptor (GPCR) signaling pathway, including the receptor and its chemokine ligand. We present experimental and computational evidence that the pathway involves the chemokine acting as a protease bait. Its pro-peptide form is already present extracellularly and is converted to an active form by multiple proteases released during cell lysis/wounding. We will discuss the experimental evidence and corresponding computational models developed to test the plausibility of these hypothesized mechanisms." 
+abstract2: "I will present our ongoing work on model-based data integration in studies of pattern formation in the early Drosophila embryo, an experimental system that offers unrivaled opportunities for combining cutting edge molecular genetics, live imaging, and  omics-based techniques."
+abstract3: "'Our real teacher has been and still is the embryo, who is, incidentally, the only teacher who is always right.' – Viktor Hamburger Evolution has generated an enormous diversity of biological form. Given this diversity, it is highly likely that every tissue structure that one can imagine has been built by the embryo of one species or another. We are interested in uncovering the physical (mechanical) mechanisms by which epithelial sheets fold themselves into branching tubes in the embryo, and using those mechanisms to engineer tissues in culture. Over the past half century, developmental biologists have identified several biochemical signaling pathways and genetic control mechanisms necessary for tissue morphogenesis. In parallel, biological systems must obey Newton’s laws of motion, and physical forces need to be generated in order to sculpt simple populations of cells into complex tissue forms. Inspired by the evolutionary diversity of embryonic forms, we have created microfabrication- and lithographic tissue engineering-based approaches to investigate the mechanical forces and downstream signaling pathways that are responsible for generating the airways of the lung. I will discuss how we combine these experimental techniques with computational models to uncover the physical forces that drive morphogenesis. I will also describe efforts to uncover and actuate the different physical mechanisms used to build the airways in lungs from birds, mammals, and reptiles."
+abstract4: "During embryonic development, the behavior of individual cells must be coordinated to create the large scale patterns and tissue movements that shape the whole embryo. Apart from chemical signals exchanged between cells, a prominent role is played by the extracellular matrix (ECM); these are the hard or jelly materials (e.g. collagens, fibronectin) that form the micro-environment of many cells in tissues. To get a better grip on the role of the extracellular matrix in determining the behavior of cells, we are developing mathematical and computational approaches to analyse the interactions of the mechanics of cells and the extracellular matrix (ECM). The cell models are usually based on the Cellular Potts model, whereas the ECM is model is based on a variety of approaches, including the finite-element model and molecular dynamics. I will discuss how these mathematical approaches help to elucidate the regulation of cell migration, collective cell behavior during angiogenesis and other mechanisms, including epithelial branching and the evolution of multicellularity."
+---

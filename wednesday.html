@@ -1,0 +1,234 @@
+---
+title: "SMB2020 Wednesday Schedule"
+layout: default
+pagination:
+    enabled: false
+description: "The Society for Mathematical Biology - e-Conference 2020."
+day: "Wednesday"
+ms1: "MS1"
+ms2: "MS2"
+ct1: "CT1"
+ms1time: "9:30-11:00am"
+ms2time: "11:15am-12:45pm"
+ct1time: "1:30-2:30pm"
+---
+
+
+<div class="container">
+	
+	<div class="col-md-12 main-loop">
+	    <div class="row">
+	        <div class="col-md-12  text-center">
+		        <h1 class="mb-3">Schedule for Wednesday, August 19</h1>
+		        
+		        {% include clock.html %}
+		        
+		        <div class="row">
+			        <div class="col-md-5 offset-md-3">
+				        								<a href="https://www.smb.org/"><img class="w-100" src="{{site.baseurl}}/assets/images/smb-motion-logo.gif" alt="SMB Logo"></a>        
+
+								
+								</br>
+								</br>
+								
+							  {% include schedule_menu.html %}
+				        
+			        </div>
+		        </div>
+	        </div>
+	    </div>
+	</div>
+	
+	<div class="row">
+		<div class="col-6 text-left">
+			<strong>Legend / Color-coding: </strong>
+			<ul>
+				<li><span class="uMEPI">MEPI</span> (Mathematical Epidemiology)</li>
+				<li><span class="uCDEV">CDEV</span> (Cell and Developmental Biology)</li>
+				<li><span class="uEDUC">EDUC</span> (Education)</li>
+				<li><span class="uIMMU">IMMU</span> (Immunobiology and Infection)</li>
+				<li><span class="uNEUR">NEUR</span> (Mathematical Neuroscience)</li>
+			</ul>
+	  </div>
+	  <div class="col-6 text-left">
+			<ul>
+				</br>
+				<li><span class="uMFBM">MFBM</span> (Methods for Biological Modeling)</li>
+				<li><span class="uPOPD">POPD</span> (Population Dynamics, Ecology & Evolution)</li>         
+				<li><span class="uONCO">ONCO</span> (Mathematical Oncology)</li>
+				<li><span class="uOTHE">OTHE</span> (Other)</li>
+			</ul>
+	  </div>
+	</div>
+	
+	{% include coffee.html %}
+	
+	<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem EDUC position-relative">
+    <div class="pl-4 pr-0 h-100 tofront">
+        <div class="row justify-content-between">
+            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
+                <h1 class="mb-3" id="opening">Subgroup Keynote</h1>
+                <h4 class="mb-3">8:30am</h4>
+                <p class="mb-3 lead">Alicia Prieto Langrica, </br>Youngstown State University, <a href="https://twitter.com/AliciaPL25">@AliciaPL25</a></p>
+                <p>Education Subgroup</p>
+
+            </div>
+            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
+								<span>
+				          <a href="https://ysu.edu/faculty-experts/prieto-langarica-alicia">
+		              	<img src="{{site.baseurl}}/assets/images/prieto.jpeg" class="rounded-circle" alt="Shayn Peirce-Cottler" style="height: 200px;">
+		              </a>
+			          </span>
+            </div>             
+        </div>
+        
+      <div class="row justify-content-between">
+	      <div class="col-12 pt-6 pb-6 pr-lg-4 align-self-center" style="margin-top: -150px;">
+	        <p class="mb-3 lead">Lessons from the Pandemic: Why and how mathematical biologist educators are morally obligated to respond</p>
+	        <p> The COVID-19 pandemic has made painfully clear the scientific illiteracy of the general population. Many are confused, rely on less than reliable sources for information, and reject scientific authorities equating the evolution of knowledge to lack of expertise. Given the current situation: what is our role and responsibility as educators to help our students be more informed, critical thinkers? How must we empower them through education to identify reliable sources and to better understand the scientific process? In this talk, we will reflect on ways in which we can respond to the current knowledge deficit, and why it is our duty to do so.
+	        </p>
+        </div>
+      </div>
+        
+    </div>
+	</div>
+    	
+	<div class="row mt-3">   
+		<div class="col-md-12 main-loop">
+			
+			<!-- Early Morning Minisymposium -->
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem parallel position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <h1 class="mb-3" id="MS1">Sub-group minisymposia (9:30-11:00am)</h1>
+		                {% include talks.html myday=page.day mygroup=page.ms1 mytime=page.ms1time %}
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			
+			{% include morning_break.html %}
+
+			<!-- Late Morning Minisymposium -->
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem parallel position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <h1 class="mb-3" id="MS2">Sub-group minisymposia (11:15am)</h1>
+		                {% include talks.html myday=page.day mygroup=page.ms2 mytime=page.ms2time %}
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem concurrent position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <h1 class="mb-3" id="lunch">SMB Business Meeting</h1>
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem parallel position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <h1 class="mb-3" id="CT1">Sub-group contributed talks (1:30-2:30pm)</h1>
+		                {% include talks.html myday=page.day mygroup=page.ct1 mytime=page.ct1time %}
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem concurrent position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <h1 class="mb-3" id="poster">Poster Session (2:30-3:30pm)</h1>
+		                {% include poster_menu.html %}
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem MFBM position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
+			            
+		                <h1 class="mb-3" id="keynote">Sub-group Keynote</h1>
+		                <h4 class="mb-3">3:30pm</h4>
+		                <p class="mb-3 lead">Robert Insall, </br>University of Galsgow, <a href="https://twitter.com/robinsall">@robinsall</a></p>
+		                <p>Methods for Biological Modeling Subgroup</p>
+		            </div>
+		            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
+										<span>
+						          <a href="https://www.gla.ac.uk/researchinstitutes/cancersciences/staff/robertinsall/">
+				              	<img src="{{site.baseurl}}/assets/images/insall.jpg" class="rounded-circle" alt="Robert Insall" style="height: 200px;">
+				              </a>
+					          </span>
+		            </div>             
+		        </div>
+		        
+		        <div class="row justify-content-between">
+				      <div class="col-12 pt-6 pb-6 pr-lg-4 align-self-center" style="margin-top: -150px;">
+				        <p class="mb-3 lead">Cells, cancer and mazes: Understanding what steers cells, using cycles of mathematics, modelling and experiments.</p>
+				        <p> 
+					        Chemotaxis is important to many of the things cells do in vivo, particularly during development and disease. It is also a favourite topic for mathematical biologists. However, despite decades of studies of how cells can interpret chemotactic gradients, there has been very little attention to how gradients form, and where the information comes from. We have studied a particularly interesting aspect of this problem - self-generated gradients, in which cells form their own gradients at the same time as interpreting them and migrating up them. Self-generated gradients are fascinating, and ideal for mathematical biologists - they are so dynamic that they are nearly impossible to measure, and they incorporate multiple levels of feedback.
+I will describe how we use modelling, mathematics and experiments on Dictyostelium and cancer cells to understand different self-generated gradients. In particular I will show how cells can solve arbitrarily complex mazes, escape from tumours, and use the information in a gradient to move down-gradient as well as up-gradient.
+					        
+				        </p>
+			        </div>
+			      </div>
+		        
+		        
+		    </div>
+			</div>
+			
+			{% include happy_hour.html %}
+			
+			</br>
+			</br>
+			
+			<div class="row">
+			  <div class="col-md-5 offset-md-3">
+				  {% include schedule_menu.html %}
+			  </div>
+			</div>
+			
+		</div>
+	</div>
+	
+	
+</div>
+
+
+<div class="alertbar">
+  <div class="container">
+    <div class="row prevnextlinks small font-weight-bold">
+      <div class="col-12 text-center pl-0">		            
+				<span class="click-legend" id="switch-text" onclick="abstractsHide()">
+					Click to show abstracts
+				</span>		            
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

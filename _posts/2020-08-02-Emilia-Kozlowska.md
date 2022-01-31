@@ -1,0 +1,12 @@
+---
+layout: single-poster
+author: esmb
+day: "All"
+group: "poster"
+title: "Mathematical modeling of palliative treatment in non-small cell lung cancer"
+subgroup: "ONCO"
+presenter: "Emilia  Kozlowska"
+institution: "Silesian University of Technology"
+abstract: "The most common subtype of lung cancer is non-small cell lung cancer (NSCLC) that constitutes 80% of all lung cancer cases. NSCLC is usually diagnosed at an advanced stage because of non-specific symptoms, leading to high mortality. The standard treatment for NSCLC patients is a combination of chemotherapy and radiotherapy and, as emerging mode of treatment, immunotherapy. We collected, from a retrospective cohort of patients, 47 patients treated with platinum-doublet chemotherapy with a palliative intent or with symptoms treatment only. Thus, the patients are treated under the assumption of failed cure. From the cohort of patients, clinical data were collected, which serve as input data for computational platform. We developed a computational platform including a machine learning algorithm and a mechanistic mathematical model to find the best protocol for administration of platinum-doublet chemotherapy in palliative setting. The core of the platform is the mathematical model, in the form of a system of ordinary differential equations, describing dynamics of platinum-sensitive and platinum-resistant cancer cells and interactions reflecting competition for space and resources. The model is simulated stochastically by sampling the parameter values from a joint probability distribution. Machine learning algorithm is applied to calibrate the mathematical model and to fit it to overall survival curve. The model simulations faithfully reproduce the clinical cohort at three levels, long-term response (OS), initial response, and the relationship between number of chemotherapy cycles and time between two consecutive chemotherapy cycles. In addition, we investigated the relationship between initial and long-term response. We showed that these two variables do not correlate, which means that we cannot predict patient survival based solely on initial response. We also tested several chemotherapy schedules to find the best one for patients treated with a palliative intent. We found that optimal treatment schedule depends, among other, on the strength of competition among sensitive and resistant subclones in a tumor."
+---
+

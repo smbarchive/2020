@@ -1,0 +1,35 @@
+<div class="row subgroup-name">
+	<div class="col-6">
+		<div class="card">
+			<a href="{{site.baseurl}}/{{ include.mysubgroup }}-posters.html">
+		  	<h5 class="card-header card-header-subgroup {{ include.mysubgroup }}">{{ include.mysubgroup }}</h5>
+			</a>
+		  <div class="card-body">
+		    <p class="card-text">
+			    Click to view all {{ include.mysubgroup }} posters.
+<!--
+			    {% for ms in site.posts %}
+						{% if ms.day == include.myday or ms.day == "All" %}
+							{% if ms.group == "poster" %}
+								{% if ms.subgroup == include.mysubgroup %}
+				    			<ul>
+							    	{% if ms.presenter %}
+								    	<li><strong>{{ ms.presenter }}</strong>
+								    	{% if ms.institution %} 
+								    		<em>{{ ms.institution }}</em>
+								    	{% endif %}
+								    	</br>"{{ ms.title }}"</li>
+								    {% endif %}
+					    		</ul>
+								{% endif %}
+	    				{% endif %}
+					  {% endif %}		    	
+					{% endfor %}
+-->
+				</p>
+		  </div>
+		</div>
+	</div>
+</div>	
+
+		

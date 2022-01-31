@@ -1,0 +1,11 @@
+---
+layout: single-poster
+author: esmb
+day: "All"
+group: "poster"
+title: "A theoretical investigation of artificial community selection methods"
+subgroup: "POPD"
+presenter: "Björn  Vessman"
+institution: "University of Lausanne"
+abstract: "Our lab studies small bacterial communities that degrade polluting industrial waste fluids. While our standard species combination can degrade some 40% of the pollutants, we hypothesize that a) the community could improve over time and b) that combinations with other species may be even more efficient. We now ask whether we can assemble and breed new communities with improved degradation efficiency. Previous attempts to experimentally select for community functions, such as host phenotypes and degradation or production of certain chemicals, have shown mixed results. Fundamentally, the experimental design needs to maintain a variance in the community function and ensure that the trait that forms the basis of the function is inherited between transfers. Further, the selection method should reduce conflicts between different species and the conflict of interest between population growth and community functions, while avoiding cheater phenotypes and inadvertent selection for biomass yield. Two main experimental designs have so far been used for experimental community selection. We evaluate and compare these, and a new method that we propose, by developing theoretical models and computational simulations of the selection methods. Our first results have given us a basal understanding of how the different selection methods work on a community level. Further, the simulations show that our proposed design can explore different species combinations to select for pollutant degradation among small communities. In addition, mutations and possible mixing between communities introduce the variance between communities that allows for evolution in the long term.  We now explore how robust the results are to model assumptions. Our study can aid the design of future artificial community selection experiments, and contribute to our fundamental understanding of multi-level selection."
+---

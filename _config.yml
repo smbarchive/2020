@@ -3,8 +3,8 @@ name: 'SMB 2020'
 description: 'The Society for Mathematical Biology - e-Conference 2020.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/2020'
-url:     "https://smbarchive.github.io"
+baseurl: ''
+url:     "http://2020.smb.org/"
 disqus: 'smb2020'
 
 include: ["_pages"]
